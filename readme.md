@@ -1,1 +1,1 @@
-我将在这个GitHub仓库中记录我所做过的C语言题目
+The C_language exercises I did will be recoreded in this repository.
