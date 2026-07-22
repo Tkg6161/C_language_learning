@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main()
 {
+    /*
     //没法处理0啊
     int num =0;
     scanf("%d",&num);
@@ -30,8 +31,21 @@ int main()
         dim=num%key1/key2;
     }
     printf("%d",sum);
-    
+    */
+   
+    int num;
+    scanf("%d", &num);
 
-    
+    int reversed = 0;
+
+    while (num != 0)
+    {
+        reversed = reversed * 10 + num % 10;
+        num /= 10;
+    }
+
+    printf("%d\n", reversed);
+
+   
     return 0;
 }
