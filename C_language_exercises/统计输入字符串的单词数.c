@@ -22,6 +22,9 @@ int main()
     string[i]='\0';
     //for循环输入字符串要手动在最后加'\0'
 
+    gets(string);
+    //或者简单点直接用gets函数输入字符串，可以输入空格，也会在最后加上'\0'
+
     for(int i=0;string[i]!='\0';i++)
     {
         if(string[i]>='a'&&string[i]<='z'||string[i]>='A'&&string[i]<='Z')
